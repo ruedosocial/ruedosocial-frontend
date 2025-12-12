@@ -1,0 +1,16 @@
+BASELINE HOME2 — RUEDOSOCIAL
+
+Estado:
+- Home1 intacta y funcional
+- Home2 privada completa (mock)
+- Navegación estable
+- UX premium aplicado
+- Preparada para backend real
+- Sin errores de build
+
+Último bloque aplicado:
+- BLOQUE 16 — Freeze final
+
+A partir de aquí:
+- Solo correcciones visuales o funcionales solicitadas por el usuario
+- No se añaden nuevas features sin indicación explícita

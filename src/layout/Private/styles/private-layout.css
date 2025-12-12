@@ -1,0 +1,25 @@
+.private-layout {
+  min-height: 100vh;
+  background: transparent;
+  color: var(--rs-gold);
+  display: flex;
+  flex-direction: column;
+}
+
+.private-main {
+  display: flex;
+  flex: 1;
+}
+
+.private-content {
+  flex: 1;
+  padding: 56px 48px;
+  font-size: 1.3rem;
+}
+
+.private-content h1 {
+}
+
+.private-main {
+  margin-top: 70px;
+}

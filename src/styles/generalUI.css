@@ -1,0 +1,28 @@
+.card-taurina {
+  background: rgba(40,40,40,0.55);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 25px;
+  color: #f2e9d8;
+  transition: 0.3s;
+}
+
+.card-taurina:hover {
+  background: rgba(60,60,60,0.55);
+}
+
+.titulo-taurino {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000;
+  margin-bottom: 15px;
+}
+
+.subtext-taurino {
+  font-size: 16px;
+  color: #e2d8c6;
+}

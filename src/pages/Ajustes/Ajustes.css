@@ -1,0 +1,15 @@
+@import "../Home/Home.css";
+
+.ajustes-box {
+  width: calc(100% - 150px);
+  margin-left: 150px;
+  margin-top: 40px;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(212,160,23,0.6);
+  border-radius: 12px;
+  padding: 40px;
+  color: white;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  text-shadow: -1px 0 #000, 1px 0 #000, 0 -1px #000, 0 1px #000;
+}

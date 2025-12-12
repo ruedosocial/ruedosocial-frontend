@@ -1,0 +1,58 @@
+/* ========================================================= */
+/* ANIMACIÓN FADE GLOBAL                                     */
+/* ========================================================= */
+@keyframes rs-fade {
+  0% { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.rs-animate-fade {
+  animation: rs-fade 1s ease-out;
+}
+
+/* ========================================================= */
+/* TELÓN SUAVE PERFECTO — MOVIMIENTO FLUIDO SIN PARONES      */
+/* ========================================================= */
+
+.cortina-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: black;
+  border-top: 6px solid #c49b3b;
+  border-bottom: 6px solid #c49b3b;
+  z-index: 9999;
+
+  /* MISMO TIEMPO QUE EL WRAPPER */
+  animation: telon-suave 1.8s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+/* 
+   🔥 NUEVA CURVA PERFECTAMENTE SUAVE:
+   - baja constante
+   - sube constante
+   - NO hay pausas ni saltos bruscos
+*/
+@keyframes telon-suave {
+
+  /* telón arriba del todo */
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+
+  /* baja continuo hasta abajo */
+  45% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  /* sube continuo desde abajo */
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}

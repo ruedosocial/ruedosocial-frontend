@@ -1,0 +1,46 @@
+.ganaderia-card {
+  width: 240px;
+  height: 260px;                /* menos altura todavía */
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
+.ganaderia-card img {
+  width: 160px;                 /* imagen más grande */
+  height: auto;
+  margin: 4px 0 8px 0;
+  opacity: 0.97;
+}
+
+.ganaderia-card h3 {
+  font-size: 15px;
+  color: #f7c86c;
+  margin-bottom: 4px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.ganaderia-card p {
+  font-size: 10px;              /* texto más compacto */
+  line-height: 1.15;
+  padding: 0 6px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.ganaderias-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  width: 100%;
+  margin-top: 10px;
+}

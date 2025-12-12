@@ -1,0 +1,43 @@
+.perfil-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.perfil-title {
+  font-size: 28px;
+  color: #ffd34e;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.perfil-card {
+  background: rgba(0,0,0,0.45);
+  padding: 20px;
+  border-radius: 14px;
+  width: 300px;
+  margin: auto;
+}
+
+.perfil-avatar {
+  width: 120px;
+  height: 120px;
+  background: rgba(255,255,255,0.10);
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.perfil-nombre {
+  color: #ffd34e;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.perfil-info-row {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+  margin: 5px 0;
+}

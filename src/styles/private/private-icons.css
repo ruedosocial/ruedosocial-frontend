@@ -1,0 +1,14 @@
+.rs-icon {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.private-card .rs-icon {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.private-card:hover .rs-icon {
+  transform: translateY(-2px);
+  opacity: 1;
+}

@@ -1,0 +1,38 @@
+.card-generic {
+  width: 260px;
+  height: 260px;
+  background: rgba(30,30,30,0.55);
+  border-radius: 10px;
+  border: 2px solid #444;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.card-generic:hover {
+  transform: scale(1.05);
+}
+
+.card-generic-img {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-generic-body {
+  text-align: center;
+  padding: 5px;
+}
+
+.card-generic-title {
+  color: #e6c35a;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.card-generic-subtitle {
+  color: #d38929;
+  font-size: 14px;
+  font-weight: 700;
+}

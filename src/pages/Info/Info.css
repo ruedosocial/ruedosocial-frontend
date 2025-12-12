@@ -1,0 +1,47 @@
+.info-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/Galeria/home/fhome_clean.png") no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-box {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid #c49b3b;
+  border-radius: 16px;
+  padding: 40px;
+  width: 650px;
+  color: #fff;
+  text-align: center;
+}
+
+.info-title {
+  font-size: 3rem;
+  color: #c49b3b;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  font-size: 1.35rem;
+  color: #FFA74A;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.info-btn {
+  padding: 12px 28px;
+  border-radius: 10px;
+  background: #c49b3b;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  border: 1px solid #c49b3b;
+}
+
+.info-btn:hover {
+  background: #d8b669;
+}

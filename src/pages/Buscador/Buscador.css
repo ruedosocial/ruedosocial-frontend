@@ -1,0 +1,71 @@
+.buscar-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.buscar-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffd34e;
+  margin-bottom: 20px;
+}
+
+.buscar-input {
+  width: 80%;
+  max-width: 450px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  background: rgba(255,255,255,0.25);
+  color: white;
+}
+
+.buscar-resultados {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+
+.buscar-item {
+  width: 80%;
+  max-width: 480px;
+  display: flex;
+  gap: 14px;
+  background: rgba(0,0,0,0.45);
+  padding: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.buscar-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.buscar-info {
+  text-align: left;
+}
+
+.buscar-nombre {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffd34e;
+  display: block;
+}
+
+.buscar-tipo {
+  font-size: 13px;
+  color: white;
+}
+
+.buscar-nores {
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+.private-card {
+  border: 1px solid rgba(196,155,59,0.45);
+  padding: 38px;
+  background: rgba(0,0,0,0.46);
+  border-radius: 12px;
+  transition: all 0.28s ease;
+}
+
+.private-card.primary {
+  padding: 58px;
+  background: linear-gradient(
+    135deg,
+    rgba(196,155,59,0.16),
+    rgba(0,0,0,0.62)
+  );
+}
+
+.private-card-title {
+  font-size: 1.55rem;
+  margin-bottom: 12px;
+}
+
+.private-card-subtitle {
+  opacity: 0.8;
+  font-size: 1.05rem;
+  max-width: 480px;
+}
+
+.private-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 34px rgba(196,155,59,0.45);
+}
+
+.private-card:active {
+  transform: scale(0.97);
+}

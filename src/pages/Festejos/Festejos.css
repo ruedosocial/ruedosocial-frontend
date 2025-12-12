@@ -1,0 +1,108 @@
+.festejos-container, 
+.festejo-detalle-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.festejos-title {
+  font-size: 28px;
+  color: #ffd34e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.festejos-subtitle {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.festejos-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.festejo-card {
+  background: rgba(0,0,0,0.40);
+  border-radius: 12px;
+  padding: 10px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.festejo-img {
+  width: 100%;
+  height: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.festejo-info {
+  margin-top: 10px;
+}
+
+.festejo-feria {
+  color: #ffd34e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.festejo-fecha {
+  color: white;
+  font-size: 13px;
+}
+
+.festejo-tipo {
+  color: #ffd34e;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.festejo-button {
+  background: #ffd34e;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.festejo-detalle-img {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.festejo-toreros-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.festejo-torero-box {
+  background: rgba(255,255,255,0.10);
+  padding: 10px;
+  border-radius: 12px;
+  width: 140px;
+}
+
+.festejo-torero-img {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.festejo-torero-nombre {
+  margin-top: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}

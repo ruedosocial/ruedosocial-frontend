@@ -1,0 +1,30 @@
+.feria-norte {
+  margin-left: 150px;
+  padding: 40px;
+  color: #dde4f0;
+  font-family: Arial, sans-serif;
+}
+.titulo-feria-norte {
+  font-size: 36px;
+  color: #9bc4ff;
+  text-shadow: 2px 2px #000;
+}
+.panel-norte {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+.img-norte {
+  width: 420px;
+  border: 3px solid #5b78a0;
+}
+.texto-norte {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.lista-norte {
+  margin-top: 35px;
+  background: rgba(40,40,50,0.6);
+  padding: 25px;
+  border-left: 6px solid #9bc4ff;
+}

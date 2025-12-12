@@ -1,0 +1,112 @@
+.apuestas-container, 
+.apuesta-detalle-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.apuestas-title {
+  font-size: 28px;
+  color: #ffd34e;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.apuestas-sub {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.apuestas-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.mercado-card {
+  background: rgba(0,0,0,0.45);
+  padding: 16px;
+  width: 260px;
+  border-radius: 12px;
+}
+
+.mercado-titulo {
+  color: #ffd34e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mercado-feria {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.mercado-button {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #ffd34e;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.opciones-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.opcion-card {
+  width: 200px;
+  background: rgba(255,255,255,0.1);
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.opcion-card:hover {
+  transform: scale(1.05);
+}
+
+.opcion-card.selected {
+  border: 2px solid #ffd34e;
+  background: rgba(255,255,255,0.2);
+}
+
+.opcion-img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.opcion-info {
+  margin-top: 8px;
+}
+
+.opcion-nombre {
+  color: #ffd34e;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.opcion-cuota {
+  color: white;
+  font-size: 14px;
+}
+
+.apostar-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ffd34e;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+}

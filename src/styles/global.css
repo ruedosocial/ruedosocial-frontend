@@ -1,0 +1,41 @@
+:root {
+  --font-global: 'Centaur', 'CentaurRS', serif;
+  --color-taurino: #c49b3b;
+}
+
+/* APLICAR LA FUENTE A TODA LA WEB */
+html, body, h1, h2, h3, h4, h5, h6,
+p, a, button, input, textarea,
+.navbar-item, .home1-btn, .alias-btn,
+.home1-card, .banner-box, .info-section,
+.home1-footer, .legend-input, .legend-btn {
+  font-family: var(--font-global) !important;
+}
+
+/* TITULOS PRINCIPALES */
+h1, h2 {
+  color: var(--color-taurino) !important;
+  font-weight: 500 !important;
+  text-shadow:
+    0px 0px 4px rgba(0,0,0,0.7),
+    0px 0px 2px rgba(0,0,0,0.85) !important;
+  -webkit-text-stroke: 0 !important;
+}
+
+/* TITULOS SECUNDARIOS */
+h3, h4, h5, h6 {
+  color: var(--color-taurino) !important;
+  font-weight: 500 !important;
+  text-shadow:
+    0px 0px 3px rgba(0,0,0,0.6) !important;
+  -webkit-text-stroke: 0 !important;
+}
+
+/* TITULOS DE TARJETAS (sin estilos de taurino) */
+.card-title,
+.home1-card h3 {
+  color: #ffffff !important;
+  text-shadow: none !important;
+  font-weight: 500 !important;
+  -webkit-text-stroke: 0 !important;
+}

@@ -1,0 +1,16 @@
+.demo-wrapper {
+  padding-top: 140px;
+  text-align: center;
+  color: #f7d376;
+  font-family: var(--font-global);
+}
+.volver-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 22px;
+  background: #c49b3b;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}

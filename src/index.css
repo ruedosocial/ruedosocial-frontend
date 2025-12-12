@@ -1,0 +1,174 @@
+@import "./styles/private/private-global.css";
+@import "./globalAnimations.css";
+@import "./styles/font-global.css";
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;        /* PROHÍBE LA SEGUNDA BARRA */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;        /* PROTECCIÓN EXTRA */
+}
+
+/* =============================================== */
+/* 🎬 CORTINILLA TAURINA — ANIMACIÓN DE TRANSICIÓN */
+/* =============================================== */
+
+.cortinilla-rs {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-bottom: 3px solid #c49b3b;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.cortinilla-rs.abriendo {
+  animation: cortinillaUp 0.45s ease forwards;
+}
+
+.cortinilla-rs.cerrando {
+  animation: cortinillaDown 0.35s ease forwards;
+}
+
+@keyframes cortinillaDown {
+  from { top: -100%; }
+  to   { top: 0; }
+}
+
+@keyframes cortinillaUp {
+  from { top: 0; }
+  to   { top: -100%; }
+}
+
+
+/* ================================ */
+/* ⭐ Logo centrado en cortinilla   */
+/* ================================ */
+
+.cortinilla-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+/* Se muestra cuando está cerrando */
+.cortinilla-rs.cerrando .cortinilla-logo {
+  opacity: 1;
+}
+
+/* ================================ */
+/* ⭐ Glow dorado al abrir cortina  */
+/* ================================ */
+
+.cortinilla-rs.abriendo {
+  box-shadow: 0 -12px 25px rgba(228,193,105,0.35);
+}
+
+/* ================================ */
+/* ⭐ Sombra oscura del fondo       */
+/* ================================ */
+
+.cortinilla-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0);
+  transition: background .35s ease;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+.cortinilla-backdrop.active {
+  background: rgba(0,0,0,0.45);
+}
+
+
+/* ===================================================== */
+/* ⭐ ARENA TAURINA — partículas ascendentes sutiles      */
+/* ===================================================== */
+
+.arena-rs-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 9997;
+  opacity: 0;
+  transition: opacity .25s ease-out;
+}
+
+.arena-rs-container.active {
+  opacity: 1;
+}
+
+.arena-rs-particle {
+  position: absolute;
+  bottom: 0;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #e7c16f 0%, #c49b3b 70%, transparent 100%);
+  border-radius: 50%;
+  animation: arenaRise 1.2s ease-out forwards;
+  opacity: 0.8;
+  filter: blur(0.4px);
+}
+
+@keyframes arenaRise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-80px) scale(0.4);
+    opacity: 0;
+  }
+}
+
+
+/* SOMBRA DE TORO */
+.toro-shadow {
+  position: fixed;
+  bottom: 0;
+  left: -300px;
+  width: 280px;
+  height: 160px;
+  background: url("/Galeria/multimedia/toro-shadow.png") no-repeat center center;
+  background-size: contain;
+  opacity: 0.55;
+  z-index: 9996;
+  pointer-events: none;
+}
+
+.toro-run {
+  animation: toroRunRS 0.85s ease-out forwards;
+}
+
+@keyframes toroRunRS {
+  from { left: -320px; opacity: .55; }
+  to   { left: 110%; opacity: .1; }
+}
+
+* {
+  font-family: var(--font-global) !important;
+}
+
+/* === PRIVATE AREA GLOBAL STYLES === */

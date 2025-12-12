@@ -1,0 +1,42 @@
+.ferias-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;                     /* 🔥 filas más juntas */
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px 0;               /* 🔥 menos separación vertical */
+}
+
+.feria-card {
+  width: 260px;
+  height: 350px;
+  background: rgba(0,0,0,0.55);
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(255,215,0,0.25);
+  transition: 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feria-card:hover {
+  transform: scale(1.05);
+}
+
+.feria-img {
+  width: 240px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 2px solid goldenrod;
+}
+
+.feria-nombre {
+  margin-top: 8px;              /* 🔥 menos separación */
+  font-size: 15px;
+  font-weight: bold;
+  color: #E6C75A;
+}

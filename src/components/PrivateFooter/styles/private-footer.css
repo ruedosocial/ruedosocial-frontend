@@ -1,0 +1,15 @@
+.private-footer {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  border-top: 1px solid rgba(196,155,59,0.25);
+  background: rgba(0,0,0,0.6);
+}
+
+.private-footer-sep {
+  opacity: 0.4;
+}

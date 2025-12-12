@@ -1,0 +1,17 @@
+.home-public-wrapper {
+  padding-top: 180px;
+  text-align: center;
+  color: white;
+}
+
+.home-public-title {
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 0 0 20px #000;
+}
+
+.home-public-sub {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  opacity: 0.9;
+}

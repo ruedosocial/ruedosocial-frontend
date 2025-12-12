@@ -1,0 +1,69 @@
+.rank-container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.rank-title {
+  font-size: 28px;
+  color: #ffd34e;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.rank-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.rank-tabs button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+.rank-tabs button.active {
+  background: #ffd34e;
+  color: black;
+}
+
+.rank-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+.rank-card {
+  width: 240px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.rank-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.rank-info {
+  padding: 10px;
+}
+
+.rank-nombre {
+  color: #ffd34e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rank-puntos {
+  color: white;
+  font-size: 14px;
+}

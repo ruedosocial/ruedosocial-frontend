@@ -1,0 +1,8 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);  /* 5 TARJETAS POR FILA */
+  gap: 22px;
+  width: 100%;
+  padding: 20px;
+  justify-items: center;
+}

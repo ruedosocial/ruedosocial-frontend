@@ -1,0 +1,36 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.42);   /* 🔥 TONO MÁS OSCURO, IGUAL QUE NAVBAR */
+  backdrop-filter: blur(6px);
+
+  padding-top: 160px;
+  padding-left: 15px;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 12;
+}
+
+.sidebar-item {
+  display: block;
+  margin: 16px 0;
+  padding-left: 10px;
+
+  text-decoration: none;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+
+  color: #d7a840;
+  -webkit-text-stroke: 0.5px #000;
+
+  transition: 0.25s ease;
+}
+
+.sidebar-item:hover {
+  color: #f5d892;
+  transform: scale(1.05);
+}

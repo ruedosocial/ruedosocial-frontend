@@ -1,0 +1,53 @@
+.rank-grid { 
+  width: calc(100% - 150px);
+  margin-left: 150px;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(5, 210px);   /* MISMO ANCHO EXACTO */
+  justify-content: center;                   /* CENTRADO PERFECTO */
+  justify-items: center;
+  align-items: start;
+  column-gap: 26px;                          /* SEPARACIÓN EXACTA */
+  row-gap: 30px;                              /* SEPARACIÓN VERTICAL */
+ }
+.rank-card { 
+  width: 210px;
+  height: 340px;                              /* MISMO ALTO QUE EN CAPTURA */
+  background: rgba(20,20,20,0.78);            /* GRIS MÁS OSCURO */
+  border-radius: 14px;
+  border: 3px solid rgb(168, 50, 40);         /* ROJO TEJA */
+  box-shadow: 0 0 12px rgba(0,0,0,0.55);
+  overflow: hidden;
+  transition: .25s;
+ }
+.rank-card:hover { 
+  transform: scale(1.04);
+  box-shadow: 0 0 22px rgba(0,0,0,0.85);
+  border-color: #ffae7a;
+ }
+.rank-card-img { 
+  width: 100%;
+  height: 140px;                               /* MISMA ALTURA QUE GANADERÍAS */
+  background-size: cover;
+  background-position: center;
+ }
+.rank-card-content { 
+  padding: 16px;
+  text-align: center;
+ }
+.rank-name { 
+  font-size: 22px;
+  font-family: "Times New Roman", serif;
+  font-weight: 800;
+  color: #d4a017;
+  margin-bottom: 8px;
+  text-shadow: -1px 0 #000, 1px 0 #000,
+               0 -1px #000, 0 1px #000;
+ }
+.rank-score { 
+  font-size: 15px;
+  color: #f0e6c9;
+  text-shadow: -1px 0 #000, 1px 0 #000,
+               0 -1px #000, 0 1px #000;
+  margin-bottom: 8px;
+ }

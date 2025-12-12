@@ -1,0 +1,29 @@
+.info-box {
+  width: 480px;
+  padding: 25px 28px;
+  background: rgba(0,0,0,0.68);
+  border: 2px solid #c49b3b;
+  border-radius: 14px;
+  text-align: center;
+  color: #fff;
+  font-family: var(--font-global);
+}
+
+.info-title {
+  font-size: 1.9rem;
+  color: #f7d376 !important;
+  margin-bottom: 10px;
+}
+
+.info-subtitle {
+  font-size: 1.2rem;
+  color: #f2b06d !important;
+  margin-bottom: 18px;
+}
+
+.info-text {
+  font-size: 1rem;
+  line-height: 1.45rem;
+  color: #fff;
+  opacity: 0.92;
+}

@@ -1,0 +1,17 @@
+.registrarse-wrapper {
+  padding-top: 180px;
+  text-align: center;
+  color: white;
+}
+
+.registrarse-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 0 0 15px #000;
+}
+
+.registrarse-sub {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  opacity: 0.9;
+}

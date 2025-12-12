@@ -1,0 +1,55 @@
+.fondo-home,
+.fondo-ferias,
+.fondo-toreros,
+.fondo-ganaderias,
+.fondo-ruedorank,
+.fondo-resultados,
+.fondo-noticias,
+.fondo-multimedia,
+.fondo-ajustes {
+  position: fixed !important;
+  top: 0; left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  z-index: -1 !important;
+}
+
+/* ASIGNACIÓN DE IMÁGENES */
+.fondo-home {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/fondocompleto/fcmadrid02.jpg");
+}
+
+.fondo-ferias {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/ferias/ff01.jpg");
+}
+
+.fondo-toreros {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/toreros/ft01.jpg");
+}
+
+.fondo-ganaderias {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/ganaderias/fg02.jpg");
+}
+
+.fondo-ruedorank {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/ruedorank/fk01.jpg");
+}
+
+.fondo-resultados {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/resultados/fr01.jpg");
+}
+
+.fondo-noticias {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/noticias/fn01.jpg");
+}
+
+.fondo-multimedia {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/multimedia/fm01.jpg");
+}
+
+.fondo-ajustes {
+  background-image: url("/var/ruedosocial/frontend/public/Galeria/ajustes/fj01.jpg");
+}

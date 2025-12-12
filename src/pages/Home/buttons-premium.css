@@ -1,0 +1,49 @@
+
+.rs-btn {
+  position: relative;
+  padding: 10px 26px;
+  border-radius: 12px;
+  font-size: 1.22rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: linear-gradient(180deg, #cfa84c 0%, #b88a29 100%);
+  color: #000;
+  box-shadow: 0 0 14px rgba(0,0,0,0.55);
+}
+
+.rs-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 0 22px rgba(255,220,140,0.75);
+}
+
+.rs-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.45), transparent);
+  transition: 0.45s linear;
+}
+
+.rs-btn:hover::after {
+  left: 120%;
+}
+
+/* Versión secundaria */
+.rs-btn-sec {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+}
+
+.rs-btn-sec:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 0 18px rgba(255,255,255,0.45);
+}
+

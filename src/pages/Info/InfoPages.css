@@ -1,0 +1,65 @@
+html, body {
+  background: url("/Galeria/home/fhomepublic.png") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+.info-wrapper {
+  padding-top: 110px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+/* TÍTULO PRINCIPAL */
+.info-title {
+  font-size: 3.2rem;
+  color: #c49b3b !important;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* TEXTO PRINCIPAL */
+.info-text {
+  font-size: 1.35rem;
+  color: #f7c27b !important;
+  margin-bottom: 35px;
+}
+
+/* BLOQUE EJEMPLO */
+.info-box {
+  background: rgba(0,0,0,0.45);
+  border: 1px solid #c49b3b;
+  padding: 28px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+}
+
+.info-box h2 {
+  font-size: 1.7rem;
+  color: #c49b3b !important;
+  margin-bottom: 12px;
+}
+
+.info-box p {
+  font-size: 1.15rem;
+  color: #f7c27b !important;
+}
+
+/* BOTÓN VOLVER */
+.info-back {
+  display: inline-block;
+  padding: 11px 28px;
+  background: #c49b3b;
+  color: #000;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.15rem;
+  border: 1px solid #c49b3b;
+}
+
+.info-back:hover {
+  background: #e3b866;
+}

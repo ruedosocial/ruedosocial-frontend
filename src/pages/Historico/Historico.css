@@ -1,0 +1,116 @@
+.historico-container,
+.historico-detalle-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.historico-title {
+  font-size: 28px;
+  color: #ffd34e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.historico-sub {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.historico-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.historico-card {
+  width: 260px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.historico-img {
+  width: 100%;
+  height: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.historico-info {
+  padding-top: 10px;
+}
+
+.historico-feria {
+  font-size: 18px;
+  color: #ffd34e;
+  font-weight: bold;
+}
+
+.historico-fecha {
+  font-size: 13px;
+  color: white;
+}
+
+.historico-resumen {
+  color: white;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.historico-detalle-img {
+  width: 90%;
+  max-width: 700px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.historico-section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffd34e;
+  margin-top: 20px;
+}
+
+.historico-text {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.historico-detalles-box {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 12px;
+  width: 70%;
+  margin: 0 auto 20px auto;
+  color: white;
+}
+
+.historico-toreros-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.historico-torero-card {
+  background: rgba(0,0,0,0.35);
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.torero-nombre {
+  color: #ffd34e;
+  font-size: 16px;
+}
+
+.torero-orejas {
+  color: white;
+  font-size: 16px;
+}

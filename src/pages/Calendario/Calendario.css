@@ -1,0 +1,58 @@
+.cal-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.cal-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffd34e;
+  margin-bottom: 20px;
+}
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  padding: 10px;
+}
+
+.cal-mes-box {
+  background: rgba(0,0,0,0.45);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.cal-mes-title {
+  font-size: 17px;
+  color: #ffd34e;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cal-festejos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cal-card {
+  background: rgba(255,255,255,0.15);
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cal-card-feria {
+  color: #ffd34e;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cal-card-fecha {
+  color: white;
+  font-size: 12px;
+}

@@ -1,0 +1,30 @@
+.feria-centro {
+  margin-left: 150px;
+  padding: 40px;
+  color: #f1e8d0;
+  font-family: "Times New Roman", serif;
+}
+.titulo-feria {
+  font-size: 38px;
+  color: #d4a017;
+  text-shadow: -2px 0 #000, 2px 0 #000;
+}
+.bloque-centro {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+.img-feria {
+  width: 420px;
+  border: 3px solid #a83228;
+}
+.texto {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.cartel-centro {
+  margin-top: 30px;
+  background: rgba(20,20,20,0.6);
+  padding: 20px;
+  border-left: 5px solid #d4a017;
+}

@@ -1,0 +1,41 @@
+:root {
+  --font-global: 'Centaur', 'CentaurRS', serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+}
+
+/* Aplicación base */
+html, body {
+  font-family: var(--font-global) !important;
+  font-weight: var(--font-weight-medium) !important;
+  letter-spacing: 0.4px;
+}
+
+/* TÍTULOS GLOBALES */
+h1, h2 {
+  font-weight: var(--font-weight-medium) !important;
+}
+
+h3, h4, h5, h6 {
+  font-weight: var(--font-weight-medium) !important;
+}
+
+/* PÁRRAFOS */
+p {
+  font-weight: var(--font-weight-normal) !important;
+}
+
+/* BOTONES GENERALES */
+button, a {
+  font-family: var(--font-global) !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+
+/* Home1 override especial para títulos premium */
+.home1-title,
+.legend-title {
+  font-family: var(--font-global) !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+

@@ -1,0 +1,27 @@
+.toreros-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px 40px;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding-top: 40px;
+  height: auto !important;
+}
+
+.torero-card {
+  width: 300px;
+  height: 420px;
+  background: rgba(0,0,0,0.55);
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+.torero-img {
+  width: 280px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 2px solid goldenrod;
+}

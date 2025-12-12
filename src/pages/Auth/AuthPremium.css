@@ -1,0 +1,94 @@
+.auth-box {
+  width: 420px;
+  padding: 30px 32px;
+  background: rgba(0,0,0,0.72);
+  border-radius: 14px;
+  border: 2px solid #c49b3b;
+  text-align: center;
+  font-family: var(--font-global);
+  animation: fadeIn 0.45s ease-out;
+}
+
+.auth-title {
+  font-size: 2rem;
+  color: #f7d376 !important;
+  margin-bottom: 6px;
+}
+
+.auth-subtitle {
+  font-size: 1.1rem;
+  color: #f2b06d !important;
+  margin-bottom: 22px;
+}
+
+/* INPUTS */
+.auth-input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.45);
+  border: 1px solid #c49b3b;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.22s ease;
+}
+
+.auth-input:focus {
+  outline: none;
+  box-shadow: 0 0 12px rgba(196,155,59,0.55);
+  border-color: #f7d376;
+}
+
+.auth-error {
+  color: #ff6565;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+/* BOTÓN */
+.auth-btn {
+  width: 100%;
+  padding: 10px 0;
+  background: #c49b3b;
+  border-radius: 10px;
+  border: 1px solid #c49b3b;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-top: 5px;
+}
+
+.auth-btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 14px rgba(196,155,59,0.65);
+  background: #d4b25c;
+  border-color: #f7d376;
+}
+
+/* CAMBIAR ENTRE LOGIN / REGISTER */
+.auth-switch {
+  margin-top: 18px;
+  color: white;
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+.auth-switch span {
+  color: #f7d376;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.auth-switch span:hover {
+  opacity: 1;
+  text-shadow: 0 0 12px rgba(196,155,59,0.55);
+}
+
+/* SUAVE ENTRADA */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(18px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
