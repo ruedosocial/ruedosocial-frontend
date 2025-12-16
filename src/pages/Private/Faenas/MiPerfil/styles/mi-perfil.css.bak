@@ -1,0 +1,79 @@
+.mi-perfil {
+  padding: 40px;
+  color: #fff;
+}
+
+.mp-header h1 {
+  font-size: 2.4rem;
+  color: #f7d376;
+  margin-bottom: 6px;
+}
+
+.mp-header p {
+  color: #e38b2d;
+  margin-bottom: 30px;
+}
+
+.mp-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.mp-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.mp-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.4);
+  border-radius: 18px;
+  padding: 22px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mp-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(196,155,59,0.35);
+}
+
+.mp-card.main {
+  border-color: rgba(255,181,90,0.6);
+}
+
+.mp-card.highlight {
+  text-align: center;
+  border-color: rgba(255,181,90,0.8);
+}
+
+.mp-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+  color: #ffb55a;
+}
+
+.mp-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.mp-card ul {
+  padding-left: 18px;
+  color: #ddd;
+}
+
+.mp-card li {
+  margin-bottom: 6px;
+}
+
+.mp-level {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-top: 10px;
+}

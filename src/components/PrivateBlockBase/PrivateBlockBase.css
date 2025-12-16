@@ -1,0 +1,46 @@
+.private-block-base {
+  padding: 80px;
+}
+
+.private-block-base h1 {
+  font-size: 3.4rem;
+  color: #f7d376;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.private-block-base .subtitle {
+  font-size: 1.5rem;
+  color: #e38b2d;
+  margin-bottom: 50px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(196,155,59,0.3);
+  border-radius: 18px;
+  padding: 32px;
+  transition: transform .25s ease, border .25s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: rgba(196,155,59,0.7);
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  color: #f7d376;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: #e38b2d;
+}

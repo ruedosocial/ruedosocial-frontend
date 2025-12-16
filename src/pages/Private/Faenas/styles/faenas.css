@@ -1,0 +1,23 @@
+
+/* CENTRADO TITULOS Y SUBTITULOS TARJETAS */
+.mf-card h3,
+.mr-card h3,
+.mt-card h3,
+.mp-card h3 {
+  text-align: center;
+}
+
+.mf-card p,
+.mr-card p,
+.mt-card p,
+.mp-card p {
+  text-align: center;
+}
+
+/* BOTONES FAENAS — ESTILO HOME */
+.mf-card button,
+.mr-card button,
+.mt-card button,
+  display: block;
+}
+

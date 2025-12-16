@@ -1,0 +1,88 @@
+/* ===============================
+   TENTADERO — ESTILO DEFINITIVO
+   =============================== */
+
+.tentadero {
+  padding: 40px;
+}
+
+/* HEADER */
+.td-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.td-header p {
+  font-size: 1.4rem;
+  color: #e38b2d;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* GRID */
+.td-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 26px;
+}
+
+/* TARJETA */
+.td-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.4);
+  border-radius: 18px;
+  padding: 22px;
+  text-align: center;
+
+  /* 🔴 CLAVE: COLOR BASE */
+  color: #f7d376;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.td-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(196,155,59,0.35);
+}
+
+/* TITULO */
+.td-card h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-bottom: 6px;
+}
+
+/* DESCRIPCIÓN */
+.td-desc {
+  color: #e38b2d;
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+}
+
+/* FILAS */
+.td-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 0 12px;
+}
+
+/* 🔴 TEXTO IZQUIERDO — FORZADO */
+.td-row span {
+  color: #f7d376 !important;
+}
+
+/* 🔴 CIFRAS — REGLA NUMÉRICA GLOBAL */
+.td-row span:last-child {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: #ffffff !important;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* BOTÓN */
+}

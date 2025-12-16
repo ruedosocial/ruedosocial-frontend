@@ -1,0 +1,81 @@
+.mi-temporada {
+  padding: 40px;
+  color: #fff;
+}
+
+.mt-header h1 {
+  font-size: 2.4rem;
+  color: #f7d376;
+  margin-bottom: 6px;
+}
+
+.mt-header p {
+  color: #e38b2d;
+  margin-bottom: 30px;
+}
+
+/* KPIs */
+.mt-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-bottom: 36px;
+}
+
+.mt-kpi {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.35);
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+}
+
+.mt-kpi span {
+  display: block;
+  color: #e38b2d;
+  margin-bottom: 6px;
+}
+
+.mt-kpi strong {
+  font-size: 1.6rem;
+  font-family: "IBM Plex Mono", monospace;
+  color: #f7d376;
+}
+
+/* TARJETAS */
+.mt-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.mt-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.4);
+  border-radius: 18px;
+  padding: 22px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mt-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(196,155,59,0.35);
+}
+
+.mt-card.highlight {
+  border-color: rgba(255,181,90,0.7);
+  box-shadow: 0 0 22px rgba(255,181,90,0.25);
+}
+
+.mt-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+  color: #ffb55a;
+}
+
+.mt-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-family: "IBM Plex Mono", monospace;
+}

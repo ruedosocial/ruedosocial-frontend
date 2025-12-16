@@ -1,0 +1,41 @@
+.block-wrapper {
+  padding: 60px;
+}
+
+.block-title-main {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-bottom: 40px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 30px;
+}
+
+.block-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.4);
+  border-radius: 18px;
+  padding: 30px;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+
+.block-card h2 {
+  color: #ff9f43;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.block-card p {
+  color: #ddd;
+  font-size: 1.05rem;
+}
+
+.block-card:hover {
+  transform: scale(1.05);
+  background: rgba(196,155,59,0.08);
+}

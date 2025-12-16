@@ -7,7 +7,6 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 
-  margin: 0 !important;
   padding: 0 !important;
 }
 
@@ -22,7 +21,6 @@
   backdrop-filter: blur(4px);
 
   padding: 20px;
-  margin: 0 !important;
 }
 
 .content-wrapper {
@@ -41,7 +39,6 @@
   width: calc(100vw - 240px);
   height: 60px;
 
-  margin: 0 !important;
   padding: 0 25px;
   z-index: 1000;
 
@@ -52,7 +49,6 @@
 }
 
 .page-content {
-  margin-top: 60px;
   height: calc(100vh - 60px);
   overflow-y: auto;
   padding: 20px;

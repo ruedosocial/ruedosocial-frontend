@@ -56,20 +56,17 @@
   color: #000;
   font-weight: 600;
   font-size: 1.05rem;
-  margin-top: 4px;
   border: 1px solid #c49b3b;
   cursor: pointer;
 }
 
 .auth-result {
   color: #f2b06d;
-  margin-top: 10px;
   font-size: 0.95rem;
 }
 
 .auth-link {
   display: block;
-  margin-top: 14px;
   color: #f7d376;
   font-size: 0.95rem;
   text-decoration: none;

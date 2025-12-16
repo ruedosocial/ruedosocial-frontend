@@ -1,0 +1,29 @@
+.mc-header {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.mc-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+}
+
+.mc-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.45);
+  border-radius: 18px;
+  padding: 22px;
+  text-align: center;
+  color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mc-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(196,155,59,0.35);
+}
+
+.mc-card-new {
+  box-shadow: 0 0 14px rgba(247,211,118,0.35);
+}

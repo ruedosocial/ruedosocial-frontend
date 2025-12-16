@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
 import FondoReal from "../components/FondoReal";
 import Home from "../pages/Home/Home";
 import Registrarse from "../pages/Auth/Registrarse";
@@ -37,29 +36,25 @@ export default function PublicLayout() {
 
       <FondoReal />
 
-      <Navbar
-        onOpenRegister={openRegister}
-        onOpenLogin={openLogin}
-      />
-
       <TransitionWrapper>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Home
-                onOpenRegister={openRegister}
-                onOpenLogin={openLogin}
-                onOpenCompite={() => setShowCompite(true)}
-                onOpenPredicciones={() => setShowPredicciones(true)}
-                onOpenRanking={() => setShowRanking(true)}
-              />
-            }
-          />
-        </Routes>
+        <div className="public-layout-content">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <Home
+                  onOpenRegister={openRegister}
+                  onOpenLogin={openLogin}
+                  onOpenCompite={() => setShowCompite(true)}
+                  onOpenPredicciones={() => setShowPredicciones(true)}
+                  onOpenRanking={() => setShowRanking(true)}
+                />
+              }
+            />
+          </Routes>
+        </div>
       </TransitionWrapper>
 
-      {/* ---------------- MODALES AUTH ---------------- */}
       {showRegister && (
         <div className="modal-overlay">
           <div className="modal-bg" onClick={() => setShowRegister(false)}></div>
@@ -78,7 +73,6 @@ export default function PublicLayout() {
         </div>
       )}
 
-      {/* ---------------- MODALES INFO DEMO ---------------- */}
       {showCompite && (
         <div className="modal-overlay">
           <div className="modal-bg" onClick={() => setShowCompite(false)}></div>

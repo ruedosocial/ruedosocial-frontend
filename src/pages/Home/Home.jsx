@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import Home1Carousel from "../../components/Home1Carousel/Home1Carousel";
 import "./Home.css";
-import Carousel from "../../components/Carousel/Carousel";
 
 export default function Home({
   onOpenRegister,
@@ -9,7 +9,6 @@ export default function Home({
   onOpenPredicciones,
   onOpenRanking
 }) {
-
   const [alias, setAlias] = useState("");
   const [resultado, setResultado] = useState("");
   const [checking, setChecking] = useState(false);
@@ -18,7 +17,7 @@ export default function Home({
 
   const comprobarAlias = () => {
     if (!alias || alias.trim().length < 3) {
-      setResultado("⚠ El alias debe tener al menos 3 caracteres.");
+      setResultado("⚠ El apodo debe tener al menos 3 caracteres.");
       return;
     }
 
@@ -27,91 +26,86 @@ export default function Home({
 
     setTimeout(() => {
       setChecking(false);
-
       if (ocupados.includes(alias.toLowerCase())) {
-        setResultado(`❌ El alias "${alias}" no está disponible.`);
+        setResultado('❌ El apodo "' + alias + '" no está disponible.');
       } else {
-        setResultado(`✔ El alias "${alias}" está disponible.`);
+        setResultado('✔ El apodo "' + alias + '" está disponible.');
       }
     }, 800);
   };
 
   return (
-    <div className="home1-container rs-animate-fade">
+    <div className="home1-container">
 
-      {/* ——— NUEVO TÍTULO ANIMADO ——— */}
-      <h1 className="home1-title title-faena">RuedoSocial.es</h1>
+      <h1 className="home1-title">RuedoSocial.es</h1>
 
-      {/* NUEVO SUBTÍTULO PRINCIPAL */}
-      <p className="home1-subtitle rs-animate-fade">
-        Predice, Acierta y Domina el RuedoSocial Digital
+      <p className="home1-subtitle">
+        Predice, Acierta y Gana Prestigio en el Ruedo Digital
       </p>
 
-      <div className="home1-buttons rs-animate-fade">
-        <button className="home1-btn primary" onClick={onOpenRegister}>
-          Registrarse
-        </button>
+      <div className="home1-buttons">
 
-        <button className="home1-btn primary" onClick={onOpenLogin}>
-          Acceder
-        </button>
+        <button className="home1-btn" onClick={onOpenRegister}>Registrarse</button>
+
+        <button className="home1-btn" onClick={onOpenLogin}>Acceder</button>
+
       </div>
 
-      <div className="rs-animate-fade">
-        <Carousel />
-      </div>
+      <Home1Carousel />
 
-      <div className="alias-wrapper rs-animate-fade">
 
+
+      <div className="alias-wrapper">
         <h2 className="alias-title">
-          El Apodo de Faena que te abrirá La Puerta Grande
+          El apodo de faena con el que te anunciará la plaza
         </h2>
 
         <div className="alias-box">
           <input
             type="text"
             className="alias-input"
-            placeholder="Introduce el Apodo que tienes pensado."
+            placeholder="Elige el apodo con el que saldrás al ruedo"
             value={alias}
             onChange={(e) => setAlias(e.target.value)}
           />
-
           <button className="alias-btn" onClick={comprobarAlias}>
             Comprobar
           </button>
         </div>
 
-        {checking && <p className="alias-result">⏳ Comprobando alias…</p>}
-        {!checking && resultado && (
-          <p className="alias-result">{resultado}</p>
-        )}
+        {checking && <p className="alias-result">⏳ Comprobando apodo…</p>}
+        {!checking && resultado && <p className="alias-result">{resultado}</p>}
       </div>
 
-      <div className="cards-container rs-animate-fade">
-
+      <div className="cards-container">
         <div className="home1-card">
-          <h3>Compite con Aficionados</h3>
-          <p>Demuestra tu sabiduría taurina.</p>
+          <h3>Mide tu saber taurino</h3>
+          <p>Frente a otros aficionados como tú.</p>
           <button className="card-btn" onClick={onOpenCompite}>Ver más</button>
         </div>
 
         <div className="home1-card">
-          <h3>Predicciones Reales</h3>
-          <p>Acertar nunca fue tan emocionante.</p>
+          <h3>Arriesga con conocimiento</h3>
+          <p>Cada pronóstico cuenta.</p>
           <button className="card-btn" onClick={onOpenPredicciones}>Ver más</button>
         </div>
 
         <div className="home1-card">
-          <h3>Escala en el Ranking</h3>
-          <p>Conviértete en leyenda del ruedo.</p>
+          <h3>Asciende en la plaza</h3>
+          <p>Solo los mejores dejan huella.</p>
           <button className="card-btn" onClick={onOpenRanking}>Ver más</button>
         </div>
-
       </div>
 
-      <p className="home1-footer rs-animate-fade">
-        © 2025 RuedoSocial.es — Todos los derechos Reservados
-      </p>
+      <div className="home1-footer-wrapper">
+        <div className="home1-footer-line"></div>
+        <p className="home1-footer">
+          La plaza está abierta. Elige tu apodo y sal al ruedo.
+        </p>
+        <p className="home1-footer">
+          © 2025 RuedoSocial.es — Todos los derechos reservados
+        </p>
+      </div>
 
     </div>
   );

@@ -1,30 +1,29 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./styles/private-sidebar.css";
 
-export default function PrivateSidebar({ className = "" }) {
-  const navigate = useNavigate();
-
-  const logout = () => {
-    navigate("/");
-  };
-
+const PrivateSidebar = () => {
   return (
-    <aside className={`private-sidebar ${className}`}>
-      <nav className="sidebar-top">
-        <NavLink to="/mi-ruedo" end className="sidebar-item">Mi Ruedo</NavLink>
-        <NavLink to="/mi-ruedo/mis-faenas" className="sidebar-item">Mis Faenas</NavLink>
-        <NavLink to="/mi-ruedo/mi-ranking" className="sidebar-item">Mi Ranking</NavLink>
-        <NavLink to="/mi-ruedo/mi-temporada" className="sidebar-item">Mi Temporada</NavLink>
-        <NavLink to="/mi-ruedo/estadisticas" className="sidebar-item">Estadísticas</NavLink>
-        <NavLink to="/mi-ruedo/mi-perfil" className="sidebar-item">Mi Perfil</NavLink>
-        <NavLink to="/mi-ruedo/ajustes" className="sidebar-item">Ajustes</NavLink>
-        <NavLink to="/mi-ruedo/notificaciones" className="sidebar-item">Notificaciones</NavLink>
-        <NavLink to="/mi-ruedo/cuenta" className="sidebar-item">Centro de Cuenta</NavLink>
-      </nav>
+    <aside className="private-sidebar">
 
-      <div className="sidebar-bottom">
-        <div className="sidebar-separator"></div>
-        <div className="sidebar-item logout" onClick={logout}>Cerrar sesión</div>
+      <div className="sidebar-block sidebar-block-tendido">
+        <NavLink to="/mi-ruedo" className="block-title">Mi Tendido</NavLink>
+
+        <NavLink to="/mi-ruedo/faenas">Faenas</NavLink>
+        <NavLink to="/mi-ruedo/tentadero">Tentadero</NavLink>
+        <NavLink to="/mi-ruedo/memoria-taurina">Memoria Taurina</NavLink>
+        <NavLink to="/mi-ruedo/monedero-taurino">Monedero Taurino</NavLink>
       </div>
+
+      <div className="sidebar-block sidebar-block-callejon">
+        <NavLink to="/mi-ruedo/mi-callejon" className="block-title">Mi Callejón</NavLink>
+
+        <NavLink to="/mi-ruedo/notificaciones">Notificaciones</NavLink>
+        <NavLink to="/mi-ruedo/centro-cuenta">Centro de Cuenta</NavLink>
+        <NavLink to="/mi-ruedo/ajustes">Ajustes</NavLink>
+      </div>
+
     </aside>
   );
-}
+};
+
+export default PrivateSidebar;

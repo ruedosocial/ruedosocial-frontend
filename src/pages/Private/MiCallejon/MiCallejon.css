@@ -1,0 +1,15 @@
+.private-block-page {
+  padding: 60px;
+}
+
+.private-block-page h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-bottom: 20px;
+}
+
+.private-block-page p {
+  font-size: 1.4rem;
+  color: #e38b2d;
+}

@@ -44,7 +44,6 @@
 }
 
 .mercado-button {
-  display: inline-block;
   padding: 6px 12px;
   background: #ffd34e;
   color: black;
@@ -86,7 +85,6 @@
 }
 
 .opcion-info {
-  margin-top: 8px;
 }
 
 .opcion-nombre {
@@ -101,7 +99,6 @@
 }
 
 .apostar-button {
-  margin-top: 20px;
   padding: 10px 20px;
   background: #ffd34e;
   color: black;

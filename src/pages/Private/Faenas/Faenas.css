@@ -1,0 +1,124 @@
+.faenas-landing {
+  padding: 40px;
+  color: #fff;
+}
+
+.faenas-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-bottom: 4px;
+}
+
+.faenas-header p {
+  font-size: 1.4rem;
+  color: #e38b2d;
+  margin-bottom: 32px;
+}
+
+.faenas-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.faena-card {
+  display: block;
+  text-decoration: none;
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.45);
+  border-radius: 22px;
+  padding: 28px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: center;
+}
+
+.faena-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 26px rgba(196,155,59,0.45);
+}
+
+.faena-card h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #f7d376;
+  margin-bottom: 8px;
+}
+
+.faena-card p {
+  color: #e38b2d;
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+}
+
+/* =========================================
+   SPACING VERTICAL — FAENAS
+   ========================================= */
+.faenas-header {
+  margin-bottom: 36px;
+}
+
+
+/* =========================================
+   FAENAS — BOTONES AL MISMO NIVEL
+   ========================================= */
+.faena-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.faena-card .card-actions {
+  margin-top: auto;
+}
+
+
+/* =========================================
+   CENTRADO TARJETAS — FAENAS
+   ========================================= */
+.faenas-cards {
+  justify-content: center;
+}
+
+
+/* =========================================
+   JUSTIFICADO TARJETAS — FAENAS
+   ========================================= */
+.faenas-cards {
+  justify-content: center;
+}
+
+
+/* =========================================
+   TARJETAS — TÍTULO PRINCIPAL
+   ========================================= */
+.faena-card h3 {
+  color: #f7d376;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.faena-card p {
+  font-size: 1.05rem;
+}
+
+
+/* =========================================
+   NORMALIZACIÓN TÍTULO TARJETA
+   ========================================= */
+.faena-card h3 {
+  text-align: center;
+  color: #f7d376;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.faena-card p {
+  font-size: 1.05rem;
+}
+

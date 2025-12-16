@@ -1,0 +1,72 @@
+.mi-tendido {
+  padding: 40px;
+  color: #fff;
+}
+
+.mt-header h1 {
+  font-size: 2.6rem;
+  color: #f7d376;
+  margin-bottom: 6px;
+}
+
+.mt-header p {
+  color: #e38b2d;
+  margin-bottom: 32px;
+}
+
+.mt-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 26px;
+}
+
+.mt-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.4);
+  border-radius: 18px;
+  padding: 22px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mt-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(196,155,59,0.35);
+}
+
+.mt-card h3 {
+  font-size: 1.35rem;
+  color: #ffb55a;
+  margin-bottom: 4px;
+}
+
+.mt-card p {
+  color: #e38b2d;
+  margin-bottom: 14px;
+}
+
+.mt-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+}
+
+.mt-card h3,
+.mt-card p {
+  text-align: center;
+}
+
+.mt-row {
+  padding: 0 10px;
+}
+
+
+/* ============================================================
+   FIX — CENTRADO BOTÓN EN TARJETAS (MI TENDIDO)
+   ============================================================ */
+.mt-card .mt-cta {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}

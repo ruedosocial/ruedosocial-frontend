@@ -1,0 +1,29 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+.dashboard-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,.4);
+  border-radius: 18px;
+  padding: 30px;
+  transition: .25s;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+  background: rgba(196,155,59,.1);
+}
+
+.card-title {
+  color: #f7d376;
+  font-size: 1.2rem;
+}
+
+.card-value {
+  display: block;
+  font-size: 2.4rem;
+  color: #fff;
+}

@@ -12,7 +12,6 @@
 .panel-norte {
   display: flex;
   gap: 30px;
-  margin-top: 25px;
 }
 .img-norte {
   width: 420px;
@@ -23,7 +22,6 @@
   line-height: 1.5;
 }
 .lista-norte {
-  margin-top: 35px;
   background: rgba(40,40,50,0.6);
   padding: 25px;
   border-left: 6px solid #9bc4ff;

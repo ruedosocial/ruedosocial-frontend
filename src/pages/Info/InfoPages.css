@@ -49,7 +49,6 @@ html, body {
 
 /* BOTÓN VOLVER */
 .info-back {
-  display: inline-block;
   padding: 11px 28px;
   background: #c49b3b;
   color: #000;

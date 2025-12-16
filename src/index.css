@@ -2,7 +2,6 @@
 @import "./globalAnimations.css";
 @import "./styles/font-global.css";
 html, body {
-  margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
@@ -172,3 +171,40 @@ html, body {
 }
 
 /* === PRIVATE AREA GLOBAL STYLES === */
+
+/* ============================================================
+   REGLA GLOBAL — TÍTULOS PRINCIPALES DE TARJETA
+   (MODELO: FAENAS / MIS FAENAS)
+   ============================================================ */
+
+.faena-card h3,
+.mf-card h3,
+.td-card h3,
+.mt-card h3,
+.mr-card h3,
+.mp-card h3,
+.card h3,
+.card-title,
+.mt-summary-card span:first-child,
+.mf-summary-card span:first-child,
+.mt-balance span {
+  color: #f7d376 !important;
+  font-size: 1.6rem !important;
+  font-weight: var(--font-weight-medium) !important;
+  text-align: center !important;
+  margin-bottom: 8px !important;
+}
+
+
+/* ============================================================
+   REGLA GLOBAL — TÍTULOS TARJETA MI CALLEJÓN
+   (CLON MI TENDIDO)
+   ============================================================ */
+.mc-card h3 {
+  color: #f7d376 !important;
+  font-size: 1.6rem !important;
+  font-weight: var(--font-weight-medium) !important;
+  text-align: center !important;
+  margin-bottom: 8px !important;
+}
+

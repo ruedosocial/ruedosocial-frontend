@@ -41,7 +41,6 @@
 
 .aula-info {
   text-align: left;
-  margin-top: 10px;
 }
 
 .aula-nombre {
@@ -56,12 +55,10 @@
   width: 90%;
   max-width: 700px;
   border-radius: 12px;
-  margin: 20px auto;
 }
 
 .aula-detalle-desc {
   width: 75%;
-  margin: 20px auto;
   color: white;
   font-size: 16px;
 }
@@ -70,13 +67,11 @@
   color: #ffd34e;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 20px;
 }
 
 .aula-lecciones {
   list-style: none;
   padding: 0;
-  margin-top: 10px;
 }
 
 .aula-leccion-item {

@@ -1,13 +1,19 @@
-import "./styles/private-layout.css";
-import "../../styles/private/private-dashboard.css";
-import "../../styles/private/private-buttons.css";
-import "../../styles/private/private-icons.css";
-import "../../styles/private/private-animations.css";
+import { Outlet } from "react-router-dom";
+import PrivateNavbar from "../../components/PrivateNavbar/PrivateNavbar";
+import PrivateSidebar from "../../components/PrivateSidebar/PrivateSidebar";
+import "../../styles/private/private-global.css";
 
-export default function PrivateLayout({ children }) {
+const PrivateLayout = () => {
   return (
-    <div className="private-layout">
-      {children}
-    </div>
+    <>
+      <div id="private-background"></div>
+      <PrivateNavbar />
+      <PrivateSidebar />
+      <main className="private-main">
+        <Outlet />
+      </main>
+    </>
   );
-}
+};
+
+export default PrivateLayout;

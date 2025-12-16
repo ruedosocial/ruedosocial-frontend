@@ -1,0 +1,145 @@
+.tentadero {
+  padding: 40px;
+}
+
+.td-header h1 {
+  font-size: 2.4rem;
+  color: #f7d376;
+  margin-bottom: 6px;
+}
+
+.td-header p {
+  color: #e38b2d;
+  margin-bottom: 30px;
+}
+
+.td-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.td-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(196,155,59,0.4);
+  border-radius: 18px;
+  padding: 22px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.td-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(196,155,59,0.35);
+}
+
+.td-card h3 {
+  color: #ffb55a;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.td-desc {
+  color: #e38b2d;
+  margin-bottom: 14px;
+}
+
+.td-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.num {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* BOTÓN GLOBAL */
+  padding: 8px 22px;
+  border-radius: 10px;
+  border: 1px solid #c49b3b;
+  background: #c49b3b;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.rs-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 12px rgba(196,155,59,0.6);
+}
+
+/* =========================================
+   HEADER — ALINEACIÓN IZQUIERDA
+   ========================================= */
+.td-header {
+  text-align: left;
+}
+
+
+/* =========================================
+   SPACING VERTICAL — TENTADERO
+   ========================================= */
+.td-header {
+  margin-bottom: 32px;
+}
+
+
+/* =========================================
+   TENTADERO — TEXTOS DESCRIPTIVOS EN BLANCO
+   ========================================= */
+.td-row span:first-child,
+.td-desc {
+  color: #ffffff;
+}
+
+
+/* =========================================
+   CENTRADO TARJETAS — TENTADERO
+   ========================================= */
+.td-cards {
+  justify-content: center;
+}
+
+
+/* =========================================
+   JUSTIFICADO TARJETAS — TENTADERO
+   ========================================= */
+.td-cards {
+  justify-content: center;
+}
+
+
+/* =========================================
+   TARJETAS — TÍTULO PRINCIPAL
+   ========================================= */
+.td-card h3 {
+  color: #f7d376;
+  font-size: 1.45rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.td-desc {
+  font-size: 1.05rem;
+}
+
+
+/* =========================================
+   NORMALIZACIÓN TÍTULO TARJETA
+   ========================================= */
+.td-card h3 {
+  text-align: center;
+  color: #f7d376;
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.td-desc {
+  font-size: 1.05rem;
+}
+

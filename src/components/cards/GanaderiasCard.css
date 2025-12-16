@@ -18,13 +18,11 @@
 .ganaderia-nombre {
   font-size: 1.1rem;
   color: #ffd86b;
-  margin-top: 8px;
   font-weight: bold;
 }
 
 .ganaderia-desc {
   font-size: 0.8rem;
   color: white;
-  margin-top: 6px;
   opacity: 0.9;
 }

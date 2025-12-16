@@ -1,0 +1,55 @@
+### BUSCANDO ARCHIVOS CON FOOTER EN HOME1 ###
+#### JSX relacionados con footer ####
+      <div className="home1-footer-wrapper">
+        <div className="home1-footer-line"></div>
+        <p className="home1-footer">
+#### CSS relacionados con footer ####
+.home1-footer-wrapper {
+.home1-footer-line {
+.home1-footer-line {
+.home1-footer {
+.home1-footer-wrapper {
+.home1-footer-line {
+.home1-footer-line {
+.home1-footer {
+#### CSS Global y de Layout relacionados con footer ####
+#### Layout relacionado con footer ####
+#### Buscar posibles conflictos de footer privado ###
+    <footer className="private-footer">
+      <span className="private-footer-sep">·</span>
+    </footer>
+.private-footer {
+.private-footer-sep {
+#### Buscar separadores de línea relacionados con footer ####
+  border-radius: 10px;
+  border: 1px solid #c49b3b;
+  border-radius: 12px;
+  border: 1px solid #c49b3b !important;
+  border-radius: 10px;
+  border: 1px solid #c49b3b;
+  border-radius: 10px;
+  border: 1px solid #c49b3b;
+  border-radius: 12px;
+  border: 1px solid #c49b3b !important;
+  border-radius: 8px;
+  border: 1px solid #c49b3b;
+  border-bottom: 3px solid #c49b3b;
+  border-radius: 50%;
+#### Buscando footer en el proyecto ####
+src/components/PrivateFooter/styles/private-footer.css:.private-footer {
+src/components/PrivateFooter/styles/private-footer.css:.private-footer-sep {
+src/components/PrivateFooter/PrivateFooter.jsx:    <footer className="private-footer">
+src/components/PrivateFooter/PrivateFooter.jsx:      <span className="private-footer-sep">·</span>
+src/components/PrivateFooter/PrivateFooter.jsx:    </footer>
+src/pages/Home/Home.css:.home1-footer-wrapper {
+src/pages/Home/Home.css:.home1-footer-line {
+src/pages/Home/Home.css:.home1-footer-line {
+src/pages/Home/Home.css:.home1-footer {
+src/pages/Home/Home.css:.home1-footer-wrapper {
+src/pages/Home/Home.css:.home1-footer-line {
+src/pages/Home/Home.css:.home1-footer-line {
+src/pages/Home/Home.css:.home1-footer {
+src/pages/Home/Home.jsx:      <div className="home1-footer-wrapper">
+src/pages/Home/Home.jsx:        <div className="home1-footer-line"></div>
+src/pages/Home/Home.jsx:        <p className="home1-footer">
+### TERMINÓ LA BÚSQUEDA ###

@@ -17,13 +17,11 @@
 .torero-nombre {
   font-size: 1.2rem;
   color: #ffd86b;
-  margin-top: 8px;
   font-weight: bold;
 }
 
 .torero-apodo {
   font-size: 0.9rem;
   color: #ffffff;
-  margin-top: 4px;
   opacity: 0.9;
 }

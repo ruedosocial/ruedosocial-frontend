@@ -1,0 +1,52 @@
+.private-sidebar {
+  width: 260px;
+  background: #111;
+  color: #fff;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  height: calc(100vh - 70px);
+  padding: 20px 18px;
+  z-index: 50;
+}
+
+/* BLOQUES PRINCIPALES */
+.block-title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #f7d376;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.block-title:hover {
+  transform: scale(1.08);
+  color: #ffe6a8;
+}
+
+.sidebar-block:first-child .block-title {
+}
+
+/* SECCIONES */
+.sidebar-block a:not(.block-title) {
+  display: block;
+  margin-left: 6px;
+  margin-bottom: 4px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e38b2d;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.sidebar-block a:not(.block-title):hover {
+  transform: scale(1.12);
+  color: #ffb55a;
+}
+
+.sidebar-block a.active:not(.block-title) {
+  color: #ffb55a;
+}

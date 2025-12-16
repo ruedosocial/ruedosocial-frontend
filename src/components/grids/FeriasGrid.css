@@ -4,7 +4,6 @@
   gap: 18px;                     /* 🔥 filas más juntas */
   width: 100%;
   max-width: 1500px;
-  margin: 0 auto;
   padding: 10px 0;               /* 🔥 menos separación vertical */
 }
 
@@ -35,7 +34,6 @@
 }
 
 .feria-nombre {
-  margin-top: 8px;              /* 🔥 menos separación */
   font-size: 15px;
   font-weight: bold;
   color: #E6C75A;

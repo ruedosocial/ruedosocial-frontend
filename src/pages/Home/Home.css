@@ -1,86 +1,82 @@
-/* HOME1 BASE */
+/* ============================================================
+   HOME1 — CARTEL DE TOROS DIGITAL (AJUSTE FINO HEADER)
+   ============================================================ */
+
+/* CONTENEDOR */
 .home1-container {
+  padding-top: 40px;              /* ⬆️ SUBE TODO EL BLOQUE */
+  padding-bottom: 80px;
+  transform: translateY(-45px);   /* ⬆️ AJUSTE FINO */
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
-  padding-top: 60px;
   text-align: center;
   font-family: var(--font-global);
   position: relative;
   z-index: 50;
 }
 
-/* TITULO PRINCIPAL */
+/* TÍTULO PRINCIPAL */
 .home1-title {
-  font-size: 4.6rem;
-  margin-bottom: 6px;
+  font-size: 4.5rem;
+  margin-bottom: 4px;             /* ⬇️ MÁS COMPACTO */
   color: #f7d376 !important;
   font-weight: 900;
-  position: relative;
-  z-index: 50;
+  letter-spacing: 0.4px;
 }
 
 /* SUBTÍTULO */
 .home1-subtitle {
-  font-size: 1.55rem;
-  margin-top: -4px;
-  margin-bottom: 16px;
-  color: #f2b06d !important;
+  font-size: 1.5rem;
+  margin-bottom: 12px;            /* ⬇️ MÁS CERCA DE BOTONES */
+  color: #e38b2d !important;
   font-weight: 500;
-  position: relative;
-  z-index: 50;
 }
 
-/* BOTONES PRINCIPALES */
+/* BOTONES */
 .home1-buttons {
   display: flex;
   justify-content: center;
   gap: 18px;
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 50;
+  margin-bottom: 14px;            /* ⬆️ SUBEN LIGERAMENTE */
 }
 
 .home1-btn {
   padding: 10px 26px;
   border-radius: 10px;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
   border: 1px solid #c49b3b;
   background: #c49b3b;
   color: #000;
   cursor: pointer;
-  transition: transform 0.20s ease, box-shadow 0.20s ease;
+  transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .home1-btn:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   box-shadow: 0 0 12px rgba(196,155,59,0.6);
 }
 
+/* === RESTO DEL LAYOUT SE MANTIENE INTACTO === */
+
 /* CARRUSEL */
-.carousel-container {
-  width: 850px !important;
-  height: 180px !important;
-  margin: 0 auto 10px auto;
+  width: 820px !important;
+  height: 170px !important;
+  margin: 0 auto 14px auto;
   border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid #c49b3b !important;
-  position: relative;
-  z-index: 50;
+  border: 1.5px solid #c49b3b !important;
 }
 
-/* ALIAS */
+/* APODO */
 .alias-wrapper {
-  margin-top: 14px;
-  position: relative;
-  z-index: 50;
+  margin-top: 18px;
 }
 
 .alias-title {
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   margin-bottom: 12px;
-  color: #f7d376 !important;
+  color: #e38b2d !important;
   font-weight: 600;
 }
 
@@ -95,12 +91,11 @@
   width: 260px;
   border-radius: 10px;
   background: rgba(0,0,0,0.45);
-  color: #d8893c;
-  border: 1px solid #c49b3b;
+  color: #e38b2d;
+  border: 1.5px solid #c49b3b;
   font-size: 1.05rem;
 }
 
-/* BOTÓN COMPROBAR */
 .alias-btn {
   padding: 10px 20px;
   background: #c49b3b;
@@ -109,80 +104,102 @@
   font-weight: 600;
   border: 1px solid #c49b3b;
   cursor: pointer;
-  font-size: 1.05rem;
-  transition: transform 0.20s ease, box-shadow 0.20s ease;
+  transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .alias-btn:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   box-shadow: 0 0 12px rgba(196,155,59,0.6);
-}
-
-.alias-result {
-  margin-top: 6px;
-  color: #f2b06d !important;
-  font-size: 1.1rem;
 }
 
 /* TARJETAS */
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 18px;
-  margin-top: 20px;
-  position: relative;
-  z-index: 50;
+  gap: 20px;
+  margin-top: 24px;
 }
 
 .home1-card {
-  width: 270px;
-  height: 150px;
-  padding: 15px;
+  width: 260px;
+  height: 135px;
+  padding: 14px;
   background: rgba(0,0,0,0.55);
   border-radius: 12px;
-  border: 1px solid #c49b3b !important;
+  border: 0.75px solid #c49b3b;
   text-align: center;
 }
 
-/* TITULOS TARJETAS — RESTAURADOS */
 .home1-card h3 {
-  color: #f7d376 !important;     /* amarillo */
-  font-size: 1.28rem;
+  color: #f7d376 !important;
+  font-size: 1.35rem;
   margin-bottom: 6px;
 }
 
-/* SUBTÍTULOS TARJETAS — RESTAURADOS */
 .home1-card p {
-  color: #f2b06d !important;     /* naranja teja */
-  margin: 0 0 6px 0;
-  font-size: 0.95rem;
-}
-
-/* BOTÓN TARJETAS */
-.card-btn {
-  display: inline-block;
-  padding: 6px 14px;
-  background: #c49b3b;
-  color: #000;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border-radius: 8px;
-  border: 1px solid #c49b3b;
-  cursor: pointer;
-  transition: transform 0.20s ease, box-shadow 0.20s ease;
-}
-
-.card-btn:hover {
-  transform: scale(1.07);
-  box-shadow: 0 0 12px rgba(196,155,59,0.6);
+  color: #f2b06d !important;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
 
 /* FOOTER */
+.home1-footer-wrapper {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.home1-footer-line {
+  width: 85%;
+  max-width: 1000px;
+  height: 2px;
+  margin: 18px auto 12px auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #c49b3b,
+    transparent
+  );
+}
+
 .home1-footer {
-  margin-top: 18px;
-  color: #fff;
-  opacity: 0.8;
-  font-size: 0.95rem;
-  position: relative;
-  z-index: 50;
+  color: #ffffff;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* ============================================================
+   HOME1 — AJUSTE FINO BLOQUE SUPERIOR (TÍTULO + SUBTÍTULO + CTA)
+   ============================================================ */
+
+.home1-title {
+  margin-bottom: 0 !important;
+  line-height: 1.05;
+}
+
+.home1-subtitle {
+  margin-top: 2px !important;
+  margin-bottom: 8px !important;
+  line-height: 1.2;
+}
+
+.home1-buttons {
+  margin-top: 6px !important;
+}
+
+/* ============================================================
+   HOME1 — FIX REAL ALTURA CARRUSEL (+30%)
+   ============================================================ */
+
+  height: 260px !important;   /* +30% real */
+}
+
+  height: 100% !important;
+}
+
+  height: 100% !important;
+}
+
+  height: 100% !important;
+  object-fit: cover;
 }

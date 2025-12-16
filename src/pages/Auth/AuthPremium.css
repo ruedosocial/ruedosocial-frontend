@@ -57,7 +57,6 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.25s ease;
-  margin-top: 5px;
 }
 
 .auth-btn:hover {
@@ -69,7 +68,6 @@
 
 /* CAMBIAR ENTRE LOGIN / REGISTER */
 .auth-switch {
-  margin-top: 18px;
   color: white;
   opacity: 0.85;
   font-size: 0.95rem;

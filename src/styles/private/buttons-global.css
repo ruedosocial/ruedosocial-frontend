@@ -1,0 +1,63 @@
+/* ============================================================
+   BOTÓN GLOBAL DEFINITIVO — HOME2
+   AJUSTE FINAL: -GROSOR TIPOGRÁFICO
+   ============================================================ */
+
+button,
+.mt-cta,
+.rs-btn,
+.card-actions .rs-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 160px;
+  height: 40px;
+  padding: 0 26px;
+
+  border-radius: 9px;
+  border: 1px solid #c49b3b;
+  background: #c49b3b;
+
+  font-family: var(--font-global) !important;
+  font-size: 1.22rem;
+  font-weight: 450;            /* 🔽 un poco menos gruesa */
+  letter-spacing: 0.6px;
+  line-height: 1;
+
+  color: #000;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+/* HOVER */
+button:hover,
+.mt-cta:hover,
+.rs-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(196,155,59,0.6);
+  filter: brightness(1.05);
+}
+
+/* ACTIVE */
+button:active,
+.mt-cta:active,
+.rs-btn:active {
+  transform: scale(0.96);
+}
+
+/* BLOQUEO SOBRESCRITURAS */
+button *,
+.mt-cta *,
+.rs-btn * {
+  pointer-events: none;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}

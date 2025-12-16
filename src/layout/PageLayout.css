@@ -11,14 +11,12 @@
   background-repeat: no-repeat !important;
 
   display: flex;
-  margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
 .content-wrapper {
   margin-left: 240px;
-  margin-top: 60px;                /* 🔥 SITÚA EL CONTENIDO BAJO EL NAVBAR */
   width: calc(100vw - 240px);
   height: calc(100vh - 60px);
   overflow: hidden;

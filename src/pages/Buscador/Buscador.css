@@ -23,7 +23,6 @@
 }
 
 .buscar-resultados {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -67,5 +66,4 @@
 .buscar-nores {
   color: white;
   font-size: 16px;
-  margin-top: 20px;
 }

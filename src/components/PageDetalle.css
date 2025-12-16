@@ -27,20 +27,17 @@
 .detalle-title {
   font-size: 38px;
   color: #d4a017;
-  margin-top: 25px;
   text-shadow: 1px 1px 2px black;
 }
 
 .detalle-sub {
   font-size: 22px;
-  margin-top: 10px;
   color: #c87a3c;
   text-shadow: 1px 1px 2px black;
 }
 
 .detalle-desc {
   font-size: 18px;
-  margin-top: 20px;
   color: #e4dcbc;
   line-height: 1.4;
 }
