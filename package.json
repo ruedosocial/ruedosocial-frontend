@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "node node_modules/vite/bin/vite.js build --force",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "chmod +x node_modules/@esbuild/linux-x64/bin/esbuild || true"
   },
   "dependencies": {
     "react": "^19.2.0",
